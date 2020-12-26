@@ -86,7 +86,7 @@ internal class Main3_2KtTest {
     fun mastercard_test_NOT_in_range(){
         val  prevSum = BigDecimal(0.00)
 
-        val expectedValue = "120.60"
+        val expectedValue = "120.61"
         val sumToPay = BigDecimal ("100.00")
         val actual = Pay.MASTERCARD.discount(prevSum,sumToPay)
 
